@@ -1,0 +1,35 @@
+#wrapper {
+  max-width: 1920px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+}
+
+#logo_wrap {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+  display: flex;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  cursor: pointer;
+  transition: linear 0.2s;
+}
+
+li:hover {
+  color: blueviolet;
+}
+
+#photo {
+  width: 70px;
+}
