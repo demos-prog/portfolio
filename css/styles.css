@@ -379,10 +379,6 @@ a {
   gap: 30px;
 }
 
-
-
-
-
 @media (max-width: 850px) {
   #first_nav {
     display: none;
