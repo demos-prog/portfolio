@@ -19,6 +19,7 @@ h1 {
 
 
 h2 {
+  font-size: large;
   font-weight: 700;
 }
 
@@ -228,7 +229,7 @@ a {
   padding: 4px;
   background-color: #fff;
   width: min-content;
-  position: absolute;
+  position: fixed;
   z-index: 100;
   top: 20vh;
   display: flex;
@@ -252,7 +253,7 @@ a {
   margin-left: 2em;
 }
 
-#scrollerWrap{
+#scrollerWrap {
   margin-top: 100px;
   padding: 5px;
   height: 62px;
@@ -285,11 +286,51 @@ a {
   }
 }
 
+#about_section {
+  background-color: #f7f7f7;
+}
 
+#about_cont {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.purpleLine {
+  width: 30px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: blueviolet;
+}
 
+#infoBlock {
+  display: flex;
+  justify-content: space-between;
+}
 
+#text_info,
+#skills_info {
+  width: 45%;
+}
 
+#skills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  padding: 10px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 3px;
+}
+
+#projects_cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 
@@ -318,5 +359,15 @@ a {
 
   .menu-items {
     width: 100vw;
+  }
+
+  #infoBlock {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #text_info,
+  #skills_info {
+    width: 100%;
   }
 }
