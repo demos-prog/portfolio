@@ -326,11 +326,27 @@ a {
   border-radius: 3px;
 }
 
-#projects_cont{
+#projects_cont {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+#projects {
+  display: flex;
+  gap: 20px;
+}
+
+.project_photo {
+  width: 250px;
+  height: 250px;
+}
+
+
+
+
+
+
 
 
 
