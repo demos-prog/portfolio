@@ -227,7 +227,7 @@ a {
 
 #socials_field {
   padding: 4px;
-  background-color: #fff;
+  background-color: transparent;
   width: min-content;
   position: fixed;
   z-index: 100;
@@ -327,21 +327,39 @@ a {
 }
 
 #projects_cont {
+  background-color: aliceblue;
+  padding: 100px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#projects {
+.projects {
+  width: 100%;
   display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
+.project {
+  padding: 20px;
+  border: 2px solid rgba(137, 43, 226, 0.466);
+  border-radius: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
 .project_photo {
+  border: 1px solid rgba(137, 43, 226, 0.466);
+  border-radius: 5px;
   width: 250px;
   height: 250px;
 }
 
+.project_photo:hover {
+  border: 2px solid rgba(137, 43, 226, 0.466);
+}
 
 
 
@@ -385,5 +403,9 @@ a {
   #text_info,
   #skills_info {
     width: 100%;
+  }
+
+  .project {
+    flex-direction: column;
   }
 }
