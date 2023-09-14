@@ -403,6 +403,10 @@ a {
     width: 100vw;
   }
 
+  #home_cont {
+    padding-top: 10vh;
+  }
+
   #infoBlock {
     flex-direction: column;
     gap: 30px;
