@@ -404,7 +404,11 @@ a {
   }
 
   #home_cont {
-    padding-top: 10vh;
+    padding-top: 8vh;
+  }
+
+  #scrollerWrap{
+    margin-top: 25px;
   }
 
   #infoBlock {
