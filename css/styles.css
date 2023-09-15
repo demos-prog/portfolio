@@ -379,6 +379,11 @@ a {
   gap: 30px;
 }
 
+#photoOnMobile{
+  height: 100px;
+  display: none;
+}
+
 @media (max-width: 850px) {
   #first_nav {
     display: none;
@@ -423,5 +428,9 @@ a {
 
   .project {
     flex-direction: column;
+  }
+
+  #photoOnMobile{
+    display: initial;
   }
 }
