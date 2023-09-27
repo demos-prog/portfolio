@@ -384,6 +384,17 @@ a {
   display: none;
 }
 
+.description{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.description p a {
+  color: blue;
+  text-decoration: underline;
+}
+
 @media (max-width: 850px) {
   #first_nav {
     display: none;
