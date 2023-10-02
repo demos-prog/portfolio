@@ -1,6 +1,6 @@
 * {
   font-family: 'Roboto', sans-serif;
-   user-select: none;
+  user-select: none;
 }
 
 #wrapper {
@@ -17,7 +17,6 @@ h1 {
   font-weight: 900;
   font-size: xx-large;
 }
-
 
 h2 {
   font-size: large;
@@ -376,17 +375,22 @@ a {
   align-items: center;
 }
 
-#contact_buttons{
+#contacts_cont>p:nth-child(10),
+#contacts_cont>p:nth-child(8) {
+  user-select: text;
+}
+
+#contact_buttons {
   display: flex;
   gap: 30px;
 }
 
-#photoOnMobile{
+#photoOnMobile {
   height: 100px;
   display: none;
 }
 
-.description{
+.description {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -425,7 +429,7 @@ a {
     padding-top: 8vh;
   }
 
-  #scrollerWrap{
+  #scrollerWrap {
     margin-top: 25px;
   }
 
@@ -443,7 +447,7 @@ a {
     flex-direction: column;
   }
 
-  #photoOnMobile{
+  #photoOnMobile {
     display: initial;
   }
 }
