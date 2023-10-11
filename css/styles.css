@@ -292,6 +292,11 @@ a {
   background-color: #f7f7f7;
 }
 
+#text_info,
+#qwe {
+  text-indent: 20px;
+}
+
 #about_cont {
   padding: 100px 50px;
   display: flex;
