@@ -2,7 +2,7 @@
 
 // showing skills
 const skills_elem = document.querySelector('#skills');
-const skills = ["HTML", "CSS", "JavaScript", "React", "Java", "Salesforse", "English: intermediate (B1)"];
+const skills = ["HTML", "CSS", "JavaScript", "React", 'TypeScript', 'Redux', "Java", "Salesforse", "English: intermediate (B1)"];
 skills.forEach(skill => {
   const div = document.createElement('div');
   div.className = "skill";
