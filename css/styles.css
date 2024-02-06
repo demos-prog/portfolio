@@ -405,6 +405,22 @@ a {
   text-decoration: underline;
 }
 
+.skills2 {
+  display: flex;
+}
+
+.skill2 {
+  color: whitesmoke;
+  white-space: nowrap;
+  width: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 7px;
+  background-color: rgba(137, 43, 226, 0.466);
+  margin-right: 5px;
+}
+
 @media (max-width: 850px) {
   #first_nav {
     display: none;
@@ -413,9 +429,7 @@ a {
   #second_nav {
     display: unset;
   }
-}
 
-@media (max-width: 700px) {
   header {
     flex-direction: column;
     padding: 0;
