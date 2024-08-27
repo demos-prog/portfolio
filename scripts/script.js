@@ -1,5 +1,5 @@
 "use strict"
-
+window.location.href = 'https://portfolio2-two-blue.vercel.app/'
 // showing skills
 const skills_elem = document.querySelector('#skills');
 const skills = ["HTML", "CSS", "JavaScript", "React", 'TypeScript', 'Redux', "Java", "Salesforse", "English: intermediate (B1)"];
